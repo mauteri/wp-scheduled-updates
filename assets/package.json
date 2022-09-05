@@ -1,0 +1,33 @@
+{
+	"name": "wp-scheduled-updates",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"check-engines": "wp-scripts check-engines",
+		"check-licenses": "wp-scripts check-licenses",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"lint:md:docs": "wp-scripts lint-md-docs",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start",
+		"test:e2e": "wp-scripts test-e2e",
+		"test:unit": "wp-scripts test-unit-js"
+	},
+	"author": "Mike Auteri",
+	"license": "ISC",
+	"devDependencies": {
+		"@wordpress/components": "^20.0.0",
+		"@wordpress/compose": "^5.14.0",
+		"@wordpress/data": "^7.0.0",
+		"@wordpress/edit-post": "^6.13.0",
+		"@wordpress/element": "^4.14.0",
+		"@wordpress/i18n": "^4.16.0",
+		"@wordpress/plugins": "^4.14.0",
+		"@wordpress/scripts": "^24.0.0"
+	}
+}
